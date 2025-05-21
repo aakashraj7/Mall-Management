@@ -4,15 +4,15 @@ This is a terminal-based **Mall Management System** project developed in **Pytho
 
 ---
 
-👤 User Roles
+## 👤 User Roles
 
-1. Admin
+### 1. **Admin**
 - Full access to the system
 - Can create, modify, and delete:
   - Customer and employee records
   - Passwords and personal details
 
-2. Customer
+### 2. **Customer**
 - Can **Sign Up** to receive a unique **Customer ID**
 - Each visit generates a new **Bill ID**
   - Multiple Bill IDs allowed per customer
@@ -20,7 +20,7 @@ This is a terminal-based **Mall Management System** project developed in **Pytho
 - Cannot **logout** until all bills are paid
 - Can view closed bill details (read-only) but cannot add new purchases to them
 
-3. Cashier
+### 3. **Cashier**
 - Employees of the mall
 - Can view **Customer IDs** and their active **Bill IDs**
 - Handles **payment and bill closing**
@@ -51,6 +51,3 @@ This is a terminal-based **Mall Management System** project developed in **Pytho
 2. Install required Python module:
    ```bash
    pip install mysql-connector-python
-   pip install tabulate
-   
-
