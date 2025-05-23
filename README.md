@@ -51,6 +51,4 @@ This is a terminal-based **Mall Management System** project developed in **Pytho
 2. Install required Python module:
    ```bash
    pip install mysql-connector-python
-   ```
-   ```bash
    pip install tabulate
